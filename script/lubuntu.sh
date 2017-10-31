@@ -6,10 +6,10 @@ fi
 
 SSH_USER=${SSH_USERNAME:-vagrant}
 
-apt -y install ssh-import-id g++ zlib1g-dev \
+apt-get -y install ssh-import-id g++ \
   lubuntu-desktop gnome-terminal \
   gettext tcl tk libsvn-perl asciidoc libcurl4-openssl-dev curl\
-  libexpat-dev zlib1g-dev libbz2-dev \
+  libexpat-dev \
   aptitude zsh autotools-dev automake libtool cmake \
   libevent-dev libncurses5-dev zlib1g-dev libbz2-dev libyaml-dev \
   libxml2-dev libxslt1-dev libreadline-dev xclip patch \
