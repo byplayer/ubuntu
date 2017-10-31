@@ -4,6 +4,8 @@ if [[ ! "$LUBUNTU" =~ ^(true|yes|on|1|TRUE|YES|ON])$ ]]; then
   exit
 fi
 
+echo "==> Installing lubuntu and dev tools"
+
 SSH_USER=${SSH_USERNAME:-vagrant}
 
 apt-get -y install ssh-import-id g++ \
@@ -41,7 +43,7 @@ apt-get -y install ssh-import-id g++ \
   ifstat nmon saidar \
   jq whois \
   nginx \
-  sam2p tokyotyrant tokyocabinet-bin libtokyotyrant-dev \
+  tokyotyrant tokyocabinet-bin libtokyotyrant-dev \
   postfix \
   cmigemo \
   mailutils \

@@ -5,9 +5,9 @@ if [[ ! "$DESKTOP" =~ ^(true|yes|on|1|TRUE|YES|ON])$ ]]; then
 fi
 
 if [[ "$LUBUNTU" =~ ^(true|yes|on|1|TRUE|YES|ON])$ ]]; then
+  echo "skip install ubuntu-desktop due to install lubuntu"
   exit
 fi
-
 
 SSH_USER=${SSH_USERNAME:-vagrant}
 
