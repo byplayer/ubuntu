@@ -10,8 +10,6 @@ SSH_USER=${SSH_USERNAME:-vagrant}
 
 export DEBIAN_FRONTEND=noninteractive
 apt-get -y \
-  -o Dpkg::Options::='--force-confdef' \
-  -o Dpkg::Options::='--force-confold' \
   install ssh-import-id g++ \
   lubuntu-desktop gnome-terminal \
   gettext tcl tk libsvn-perl asciidoc libcurl4-openssl-dev curl\
