@@ -64,4 +64,3 @@ NODPMS_CONFIG=/etc/xdg/autostart/nodpms.desktop
     echo "Comment[en_US]=" >> $NODPMS_CONFIG
     echo "Comment=" >> $NODPMS_CONFIG
 fi
-
