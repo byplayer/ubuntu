@@ -23,7 +23,7 @@ apt-get -y \
   wget ncftp ntp \
   ibus-mozc mozc-server mozc-utils-gui \
   exuberant-ctags \
-  emacs24 emacsen-common rdtool-elisp emacs-goodies-el \
+  emacs emacsen-common rdtool-elisp emacs-goodies-el \
   emacs-mozc \
   markdown \
   xfonts-shinonome python-xlib \
