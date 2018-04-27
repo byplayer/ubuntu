@@ -4,6 +4,11 @@ if [[ ! "$LUBUNTU" =~ ^(true|yes|on|1|TRUE|YES|ON])$ ]]; then
   exit
 fi
 
+echo "==> replace hosts domain"
+mv /etc/hosts{,.org}
+cat /etc/hosts.org | sed -e 's/127.0.1.1.*/127.0.1.1 vagrant.localhost vagrant/g' > /etc/hosts
+rm /etc/hosts.org
+
 echo "==> Installing lubuntu and dev tools"
 
 SSH_USER=${SSH_USERNAME:-vagrant}
