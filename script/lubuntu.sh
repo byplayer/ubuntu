@@ -10,50 +10,106 @@ SSH_USER=${SSH_USERNAME:-vagrant}
 
 export DEBIAN_FRONTEND=noninteractive
 apt-get -y \
-  install ssh-import-id g++ \
-  lubuntu-desktop gnome-terminal \
-  gettext tcl tk libsvn-perl asciidoc libcurl4-openssl-dev curl\
-  libexpat-dev \
-  aptitude zsh autotools-dev automake libtool cmake \
-  libevent-dev libncurses5-dev zlib1g-dev libbz2-dev libyaml-dev \
-  libxml2-dev libxslt1-dev libreadline-dev xclip patch \
-  libx11-dev \
-  libgmp3-dev \
+  aptitude \
+  asciidoc \
+  automake \
+  autotools-dev \
+  bmon \
+  bwm-ng \
+  cbm \
   chromium-browser \
-  wget ncftp ntp \
-  ibus-mozc mozc-server mozc-utils-gui \
-  exuberant-ctags \
-  emacs emacsen-common rdtool-elisp emacs-goodies-el \
-  emacs-mozc \
-  markdown \
-  xfonts-shinonome python-xlib \
-  libterm-readkey-perl \
-  mlocate ssh \
-  libsqlite3-dev sqlite3 \
-  expect dkms \
-  libmcrypt-dev \
-  libffi-dev \
-  eblook lookup-el \
-  python-sphinx python-pip \
-  python-virtualenv \
-  python3-sphinx python3-pip \
-  python3-virtualenv \
-  postgresql postgresql-client libpq-dev \
-  manpages-dev \
-  iftop bmon iptraf nload nethogs speedometer slurm \
-  iptraf tcptrack vnstat  bwm-ng cbm pktstat netdiag \
-  ifstat nmon saidar \
-  jq whois \
-  nginx \
-  tokyotyrant tokyocabinet-bin libtokyotyrant-dev \
-  postfix \
+  cmake \
   cmigemo \
+  curl \
+  curl \
+  dkms \
+  eblook lookup-el \
+  emacs \
+  emacs-goodies-el \
+  emacs-mozc \
+  emacsen-common \
+  expect \
+  exuberant-ctags \
+  g++ \
+  gettext \
+  gnome-terminal \
+  ibus-mozc \
+  ifstat \
+  iftop \
+  install \
+  iptraf \
+  iptraf \
+  jq \
+  libbz2-dev \
+  libcurl4-openssl-dev \
+  libevent-dev  \
+  libexpat-dev \
+  libffi-dev \
+  libgdbm-dev \
+  libgmp3-dev \
+  libgroonga-dev \
+  libmcrypt-dev \
+  libncurses5-dev \
+  libpq-dev \
+  libqt4-dev \
+  libreadline-dev \
+  libsnappy-dev \
+  libsqlite3-dev sqlite3 \
+  libsvn-perl \
+  libterm-readkey-perl \
+  libtokyotyrant-dev \
+  libtool \
+  libx11-dev \
+  libxml2-dev \
+  libxslt1-dev \
+  libyaml-dev \
+  lubuntu-desktop \
   mailutils \
-  curl unzip libsnappy-dev \
-  qt4-qmake libqt4-dev xvfb \
-  rlwrap \
+  manpages-dev \
+  markdown \
   meld \
+  mlocate \
+  mozc-server \
+  mozc-utils-gui \
+  ncftp \
+  netdiag \
+  nethogs \
+  nginx \
+  nload \
+  nmon \
+  ntp \
+  patch \
+  pktstat \
+  postfix \
+  postgresql \
+  postgresql-client \
+  python-pip \
+  python-sphinx \
+  python-virtualenv \
+  python-xlib \
+  python3-pip \
+  python3-sphinx \
+  python3-virtualenv \
+  qt4-qmake \
+  rdtool-elisp \
+  rlwrap \
+  saidar \
+  slurm \
+  speedometer \
+  ssh \
+  ssh-import-id \
+  tcl \
+  tcptrack \
   texi2html texinfo \
-  libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386 \
-  qemu-kvm virt-manager libvirt-bin bridge-utils \
-  libgdbm-dev libgroonga-dev
+  tk \
+  tokyocabinet-bin \
+  tokyotyrant \
+  unzip \
+  vnstat \
+  wget \
+  whois \
+  xclip \
+  xfonts-shinonome \
+  xvfb \
+  zlib1g-dev \
+  zsh
