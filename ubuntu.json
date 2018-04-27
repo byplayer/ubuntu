@@ -8,6 +8,7 @@
         "file=/floppy/{{ user `preseed` }} ",
         "debian-installer={{ user `locale` }} auto locale={{ user `locale` }} kbd-chooser/method=us ",
         "hostname={{ user `hostname` }} ",
+        "domain=localhost",
         "grub-installer/bootdev=/dev/sda<wait> ",
         "fb=false debconf/frontend=noninteractive ",
         "keyboard-configuration/modelcode=SKIP keyboard-configuration/layout=USA ",
