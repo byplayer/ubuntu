@@ -9,7 +9,7 @@ echo "==> Installing lubuntu and dev tools"
 SSH_USER=${SSH_USERNAME:-vagrant}
 
 export DEBIAN_FRONTEND=noninteractive
-apt-get -y \
+apt-get -y install \
   aptitude \
   asciidoc \
   automake \
@@ -36,7 +36,6 @@ apt-get -y \
   ibus-mozc \
   ifstat \
   iftop \
-  install \
   iptraf \
   iptraf \
   jq \
