@@ -26,9 +26,8 @@ apt-get -y install \
   cmake \
   cmigemo \
   curl \
-  curl \
   dkms \
-  eblook lookup-el \
+  eblook \
   emacs \
   emacs-goodies-el \
   emacs-mozc \
@@ -55,7 +54,6 @@ apt-get -y install \
   libmcrypt-dev \
   libncurses5-dev \
   libpq-dev \
-  libqt4-dev \
   libreadline-dev \
   libsnappy-dev \
   libsqlite3-dev sqlite3 \
@@ -67,6 +65,7 @@ apt-get -y install \
   libxml2-dev \
   libxslt1-dev \
   libyaml-dev \
+  lookup-el \
   lubuntu-desktop \
   mailutils \
   manpages-dev \
@@ -87,14 +86,9 @@ apt-get -y install \
   postfix \
   postgresql \
   postgresql-client \
-  python-pip \
-  python-sphinx \
-  python-virtualenv \
-  python-xlib \
   python3-pip \
   python3-sphinx \
   python3-virtualenv \
-  qt4-qmake \
   rdtool-elisp \
   rlwrap \
   saidar \
