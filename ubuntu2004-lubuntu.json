@@ -1,5 +1,5 @@
 {
-  "_comment": "Build with `packer build -var-file=ubuntu2004.json ubuntu.json`",
+  "_comment": "Build with `packer build -var-file=ubuntu2004-lubuntu.json ubuntu.json`",
   "vm_name": "ubuntu2004-lubuntu",
   "desktop": "true",
   "lubuntu": "true",
